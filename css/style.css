@@ -5,6 +5,14 @@
 }
 
 /* Main section styles */
-#honda-clients-img{
-    border-radius: 300px;
+.honda-gray-img{
+    filter: grayscale(100%);
+}
+
+.honda-gray-img:hover{
+    filter: grayscale(0%);
+}
+
+.honda-img:hover{
+    transform: scale(1.15);
 }
