@@ -1,0 +1,11 @@
+
+/* Header section styles */
+.header-section{
+    background-color: #264653;
+}
+
+/* Main section styles */
+.honda-bike-collection{
+    border-bottom: 5px solid lightsalmon;
+    width: 120px;
+}
