@@ -1,8 +1,17 @@
+/* Google Fonts - Poppins */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
 
 /* Header section styles */
 .header-section{
     background-color: #264653;
 }
+
 
 /* Main section styles */
 .honda-gray-img{
@@ -19,11 +28,38 @@
 }
 
 .special-button{
-    color: white !important;
-    background-color: rgb(211, 103, 61) !important;
-    border: 1px solid black !important;
+    background-color: #E76F51 !important;
+    border: 1px solid grey !important;
+}
+
+.honda-bg-color{
+    color: #E76F51;
 }
 
 .gallery-section button:hover{
     background-image: linear-gradient(to right, tomato, lightblue);
+}
+
+.honda-query-section{
+    background-color: #f4fafa;
+}
+
+.honda-special-hr{
+    opacity: 100%;
+    margin: auto;
+    width: 60px;
+    border-bottom: 2px solid #e66646;
+}
+
+.honda-heading-size{
+    font-size: 44px;
+    font-weight: 600;
+}
+
+.honda-paragraph-color{
+    color: #6C6C6C;
+}
+
+.honda-star-color{
+    color: #E77C40;
 }
