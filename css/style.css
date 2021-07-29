@@ -6,14 +6,36 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
-
 /* Header section styles */
 .header-section{
     background-color: #264653;
+    width: 100%;
 }
 
 
 /* Main section styles */
+
+.special-button{
+    background-color: #E76F51 !important;
+    border: 1px solid grey !important;
+}
+
+.honda-heading-size{
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.honda-bg-color{
+    color: #E76F51;
+}
+
+.honda-special-hr{
+    opacity: 100%;
+    margin: auto;
+    width: 60px;
+    border-bottom: 2px solid #e66646;
+}
+
 .honda-gray-img{
     filter: grayscale(100%);
 }
@@ -27,39 +49,18 @@ body{
     opacity: 95%;
 }
 
-.special-button{
-    background-color: #E76F51 !important;
-    border: 1px solid grey !important;
-}
-
-.honda-bg-color{
-    color: #E76F51;
-}
-
-.gallery-section button:hover{
-    background-image: linear-gradient(to right, tomato, lightblue);
-}
-
-.honda-query-section{
-    background-color: #f4fafa;
-}
-
-.honda-special-hr{
-    opacity: 100%;
-    margin: auto;
-    width: 60px;
-    border-bottom: 2px solid #e66646;
-}
-
-.honda-heading-size{
-    font-size: 44px;
-    font-weight: 600;
-}
-
 .honda-paragraph-color{
     color: #6C6C6C;
 }
 
 .honda-star-color{
     color: #E77C40;
+}
+
+#Gallery button:hover{
+    background-image: linear-gradient(to right, tomato, rgb(229, 183, 151));
+}
+
+.honda-query-section{
+    background-color: #f4fafa;
 }
