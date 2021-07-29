@@ -16,6 +16,7 @@ body{
 /* Main section styles */
 
 .special-button{
+    color: white !important;
     background-color: #E76F51 !important;
     border: 1px solid grey !important;
 }
