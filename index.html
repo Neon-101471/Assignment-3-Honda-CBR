@@ -26,10 +26,10 @@
     <!-- Header section started here -->
     <header class="header-section">
 
-        <section class="container text-white">
+        <section class="text-white">
         
         <!-- Navbar started here -->
-        <div class="my-1 pb-5">
+        <div class="mt-2 pb-5">
             <nav class="navbar navbar-expand-lg navbar-dark">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="index.html">Home</a>
@@ -47,6 +47,9 @@
                                 <a class="nav-link active" aria-current="page" href="#">News</a>
                             </li>
                             <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Gallery</a>
+                            </li>
+                            <li class="nav-item">
                                 <a class="nav-link active" aria-current="page" href="#">Contact</a>
                             </li>
                         </ul>
@@ -57,13 +60,35 @@
         <!-- Navbar closed here -->
 
 
-        <div class="w-100 pb-5">
+        <div class="container w-100 pb-5">
             <div class="row d-flex justify-content-center align-items-center">
                 <div class="w-lg-50 col-lg-6 col-sm-12">
                     <p>Computer-controlled digital transistorized with electronic advance</p>
                     <h1>Honda CBR 300R</h1>
                     <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-                    <button class="btn btn-danger px-5 mb-4">Purchase</button>
+
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-danger px-5" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Purchase</button>
+                    
+                    <!-- Modal -->
+                    <div class="modal fade text-dark" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h5 class="modal-title" id="staticBackdropLabel">Honda 1431NS</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p><span class="text-danger">Congratulations!</span> You're going to buy this.</p>
+                                <p>Now you're a trusted partner of our <span class="text-secondary"><b>HONDA Family</b></span>..</p>
+                              </div>
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Confirm</button>
+                            <button type="button" class="btn btn-primary">Save Changes</button>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-lg-6 col-sm-12">
                     <img class="w-100" src="images/header-bike.png" alt="">
@@ -144,7 +169,7 @@
                     </div>
                     <div class="col">
                       <div class="card h-100 d-flex justify-content-center align-items-center">
-                            <img class="w-50 mt-5 mb-4 card-img-top honda-clients-img" src="images/user-2.png" alt="...">
+                            <img class="w-50 mt-5 mb-4 card-img-top" src="images/user-3.png" alt="...">
                         <div class="card-body">
                             <p class="card-text">Slate helps you see how many more days you need to work to reach your financial goal for the month and year.</p>
                         </div>
@@ -163,6 +188,7 @@
             </div>
         </section>
         <!-- Clients section closed here -->
+        
 
         <!-- FAQ section started here -->
         <section class="clien-section container">
@@ -243,7 +269,36 @@
         </section>
         <!-- FAQ section closed here -->
 
-
+        <!-- Gallery section started here -->
+            <section class="container gallery-section my-5">
+                <div class="text-center mt-5 pt-3 pt-lg-4 pb-3">
+                    <h1 class="text-secondary">Bike Gallery</h1>
+                </div>
+    
+                <div class="row">
+                    <div class="col-lg-4 d-flex justify-content-center align-items-center">
+                        <div>
+                            <img class="my-3 py-3 honda-gray-img honda-img" width="285px" height="240px" src="images/bg-1.png" alt="">
+                            <p class="pe-5">Cycling is one of the most accessible sports on the planet and helpful exercise too.</p>
+                            <button class="btn btn-success">Get Exclusive Offer</button>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 d-flex justify-content-center align-items-center">
+                        <div>
+                            <img class="my-3 py-3 honda-gray-img honda-img" width="285px" height="240px" src="images/bg-2.png" alt="">
+                            <p class="pe-5">Cycling is one of the most accessible sports on the planet and helpful exercise too.</p>
+                            <button class="btn special-button">Get Exclusive Offer</button>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 d-flex justify-content-center align-items-center">
+                        <div>
+                            <img class="my-3 py-3 honda-gray-img honda-img" width="285px" height="240px" src="images/bg-3.png" alt="">
+                            <p class="pe-5">Cycling is one of the most accessible sports on the planet and helpful exercise too.</p>
+                            <button class="btn btn-success">Get Exclusive Offer</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
     </main>
     <!-- Main section closed here -->
     
